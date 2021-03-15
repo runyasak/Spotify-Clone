@@ -54,14 +54,62 @@
 		8313A01925FFC89B00A330C0 /* Spotify */ = {
 			isa = PBXGroup;
 			children = (
-				8313A01A25FFC89B00A330C0 /* AppDelegate.swift */,
-				8313A01C25FFC89B00A330C0 /* SceneDelegate.swift */,
-				8313A01E25FFC89B00A330C0 /* ViewController.swift */,
-				8313A02325FFC89C00A330C0 /* Assets.xcassets */,
-				8313A02525FFC89C00A330C0 /* LaunchScreen.storyboard */,
+				8313A03625FFC98E00A330C0 /* ViewModels */,
+				8313A03525FFC98200A330C0 /* Controllers */,
+				8313A03425FFC97100A330C0 /* Models */,
+				8313A03225FFC96200A330C0 /* Managers */,
+				8313A03125FFC95A00A330C0 /* Resources */,
+				8313A03025FFC92C00A330C0 /* Views */,
 				8313A02825FFC89C00A330C0 /* Info.plist */,
 			);
 			path = Spotify;
+			sourceTree = "<group>";
+		};
+		8313A03025FFC92C00A330C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8313A02525FFC89C00A330C0 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8313A03125FFC95A00A330C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8313A01A25FFC89B00A330C0 /* AppDelegate.swift */,
+				8313A02325FFC89C00A330C0 /* Assets.xcassets */,
+				8313A01C25FFC89B00A330C0 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8313A03225FFC96200A330C0 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		8313A03425FFC97100A330C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8313A03525FFC98200A330C0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8313A01E25FFC89B00A330C0 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8313A03625FFC98E00A330C0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
